@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.gronkhtv" name="Gronkh.tv" version="0.1.0" provider-name="Schattenechse">
+<addon id="plugin.video.gronkhtv" name="Gronkh.tv" version="1.0.0" provider-name="jamal2362">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
@@ -14,11 +14,11 @@
         <summary lang="de_DE">Schaue Videos von gronkh.tv!</summary>
         <description lang="en_GB">gronkh.tv is an online video service that offers full-length streams of Gronkh and potentially other Let's Players.</description>
         <description lang="de_DE">gronkh.tv ist ein online Video-Streaming-Dienst und bietet Zugang zum Stream-Archiv von Gronkh und potentiell auch anderen Let's Playern.</description>
-        <news>v0.1.0 (2022.02.20)[gtv] - Erste Version</news>
+        <news>v1.0.0 (27.01.24)[gtv] - Erste Version</news>
         <license>GNU Affero General Public License, v3</license>
         <forum></forum>
         <website>https://gronkh.tv/</website>
-        <source>https://github.com/Yavos/plugin.video.gronkhtv</source>
+        <source>https://github.com/jamal2362/plugin.video.gronkhtv</source>
         <email></email>
         <assets>
             <icon>resources/icon.png</icon>
