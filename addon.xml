@@ -2,7 +2,7 @@
 <addon id="plugin.video.gronkhtv" name="Gronkh.tv" version="1.0.0" provider-name="jamal2362">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+        <import addon="script.module.inputstreamhelper" version="0.6.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -19,13 +19,8 @@
         <forum></forum>
         <website>https://gronkh.tv/</website>
         <source>https://github.com/jamal2362/plugin.video.gronkhtv</source>
-        <email></email>
         <assets>
             <icon>resources/icon.png</icon>
-            <!-- <fanart>resources/media/fanart.jpg</fanart> -->
-            <!-- <screenshot>resources/media/screenshot-01.jpg</screenshot> -->
-            <!-- <screenshot>resources/media/screenshot-02.jpg</screenshot> -->
-            <!-- <screenshot>resources/media/screenshot-03.jpg</screenshot> -->
         </assets>
     </extension>
 </addon>
