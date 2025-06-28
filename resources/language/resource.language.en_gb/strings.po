@@ -13,28 +13,22 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-
-# Menü
-
 msgctxt "#30001"
-msgid "Neueste Uploads"
-msgstr "Neueste Uploads"
+msgid "Latest uploads"
+msgstr ""
 
 msgctxt "#30002"
-msgid "Meist gesehen"
-msgstr "Meist gesehen"
+msgid "Most viewed"
+msgstr ""
 
 msgctxt "#30003"
 msgid "Browse"
-msgstr "Browse"
+msgstr ""
 
 msgctxt "#30004"
-msgid "Suche"
-msgstr "Suche"
+msgid "Search"
+msgstr ""
 
-
-# Fehlerausgabe
-
-msgctxt "#30101"
-msgid "Der Suchbegriff muss mindestens 3 Zeichen lang sein."
-msgstr "Der Suchbegriff muss mindestens 3 Zeichen lang sein."
+msgctxt "#30005"
+msgid "The search term must be at least 3 characters long."
+msgstr ""

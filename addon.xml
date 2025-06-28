@@ -10,11 +10,10 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <language>de</language>
-        <summary lang="en_GB">Watch videos from gronkh.tv!</summary>
-        <summary lang="de_DE">Schaue Videos von gronkh.tv!</summary>
-        <description lang="en_GB">gronkh.tv is an online video service that offers full-length streams of Gronkh and potentially other Let's Players.</description>
-        <description lang="de_DE">gronkh.tv ist ein online Video-Streaming-Dienst und bietet Zugang zum Stream-Archiv von Gronkh und potentiell auch anderen Let's Playern.</description>
-        <news>v1.2.0 (24.09.24)[gtv] - Thumbnails werden wieder angezeigt.</news>
+        <summary lang="en_GB">Watch videos from Gronkh.tv!</summary>
+        <summary lang="de_DE">Schau dir Videos auf Gronkh.tv an!</summary>
+        <description lang="en_GB">Gronkh.tv is an online video streaming service that provides access to the stream archive of Gronkh and potentially other Let's Players.</description>
+        <description lang="de_DE">Gronkh.tv ist ein Online-Video-Streamingdienst, der Zugang zum Stream-Archiv von Gronkh und potenziell auch anderen Let's Playern bietet.</description>
         <license>GNU Affero General Public License, v3</license>
         <website>https://gronkh.tv/</website>
         <source>https://github.com/jamal2362/plugin.video.gronkhtv</source>

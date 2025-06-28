@@ -37,7 +37,7 @@ def get_videos(cat, off=0, query=""):
         query = query or xbmcgui.Dialog().input("Suche", type=xbmcgui.INPUT_ALPHANUM)
         while len(query) < 3:
             if not query: return [], ""
-            xbmcgui.Dialog().ok(_PLUGIN, _addon.getLocalizedString(30101))
+            xbmcgui.Dialog().ok(_PLUGIN, _addon.getLocalizedString(30005))
             query = xbmcgui.Dialog().input("Suche", type=xbmcgui.INPUT_ALPHANUM)
         url = f"search?query={quote_plus(query)}"
 
