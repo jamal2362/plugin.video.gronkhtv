@@ -113,6 +113,8 @@ def seconds_to_time(s):
 # ---------------------------------------------------------------------------
 
 def list_videos(cat, off=0, q=""):
+    xbmcplugin.setPluginCategory(_HANDLE, cat)
+    xbmcplugin.setContent(_HANDLE, 'videos')
     vids, q = get_videos(cat, int(off), q)
 
     for v in vids:
@@ -135,16 +137,20 @@ def list_videos(cat, off=0, q=""):
         tag = item.getVideoInfoTag()
         tag.setMediaType('video')
         tag.setTitle(v['title'])
-        tag.setGenres(['Let\'s Plays'])
+        tag.setGenres(['Gaming / Reaction / Talk'])
+        tag.setDirectors(['Gronkh'])
+        tag.setWriters(['Gronkh'])
         tag.setDuration(v['video_length'])
-        tag.setEpisode(ep)
+        tag.setEpisode(v['episode'])
+        tag.setCountries(['Deutschland'])
         tag.setDateAdded(v['created_at'])
         tag.setPremiered(v['created_at'])
         tag.setFirstAired(v['created_at'])
-        tag.setPlot('\n'.join(x[0] for x in cm))
+        tag.setPlot(f"{v['views']} mal angesehen\n" + '\n'.join(x[0] for x in cm))
 
         # FIX: Add referer headers to thumbnails
         art_url = make_art(v['preview_url'])
+        item.setInfo('video', {'mediatype': 'video'})
         item.setArt({'thumb': art_url, 'fanart': art_url})
 
         item.setProperty('IsPlayable', 'true')
